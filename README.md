@@ -13,7 +13,7 @@ _Stack:_
 - deleting user's photos
 - add and delete 'like'
 - new photos are added to the top of the list
-
+- Adaptive layout
 ### Installing dependencies
 
 `npm install`
