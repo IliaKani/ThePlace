@@ -1,0 +1,10 @@
+.elements__items {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-auto-rows: 361px;
+  gap: 21px 18px;
+  justify-content: center;
+  font-family: 'Inter', Arial, sans-serif;
+  list-style: none;
+}

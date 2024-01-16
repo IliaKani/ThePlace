@@ -1,0 +1,22 @@
+@import url(__info/profile__info.css);
+@import url(__avatar/profile__avatar.css);
+@import url(__container/profile__container.css);
+@import url(__name/profile__name.css);
+@import url(__job/profile__job.css);
+@import url(__wrap/profile__wrap.css);
+
+.profile {
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .profile {
+    flex-direction: column;
+  }
+}
+

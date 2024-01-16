@@ -1,0 +1,36 @@
+@import url(__content/page__content.css);
+@import url(__header/page__header.css);
+@import url(__profile/page__profile.css);
+@import url(__footer/page__footer.css);
+
+
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 882px;
+  padding: 45px 0 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding: 45px 19px 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page {
+    padding: 28px 0 36px;
+  }
+}

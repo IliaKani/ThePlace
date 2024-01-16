@@ -1,0 +1,23 @@
+.profile__job {
+  grid-area: job;
+  max-width: 295px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.22;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__job {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile__job {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
