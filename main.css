@@ -10,7 +10,7 @@
 .logo__img{margin:0 0 40px}@media screen and (max-width:480px){.logo__img{margin:0 0 31px}}@media screen and (max-width:320px){.logo__img{height:24px;width:103px}}
 
 .profile__info{display:flex;flex-direction:row;align-items:center;justify-content:center}@media screen and (max-width:768px){.profile__info{display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:33px}}
-.profile__avatar{grid-area:avatar;grid-column:1/2;border-radius:50%;max-width:120px;max-height:120px}
+.profile__avatar{grid-area:avatar;max-width:120px;grid-column:1/2;border-radius:50%;max-width:200px;max-height:200px;-webkit-clip-path:circle();clip-path:circle()}
 .profile__container{display:grid;grid-template-columns:repeat(2,auto);grid-template-rows:repeat(2,auto);grid-template-areas:"name button" "job .";align-items:center;gap:16px 17px;margin-left:30px}@media screen and (max-width:720px){.profile__container{gap:13px 7px}}
 .profile__name{grid-area:name;margin:0;max-width:295px;font-style:normal;font-weight:500;font-size:2.625rem;line-height:1.33;color:#fff;align-self:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}@media screen and (max-width:480px){.profile__name{font-size:1.6875rem}}
 .profile__job{grid-area:job;max-width:295px;margin:0;padding:0;font-style:normal;font-weight:400;font-size:1.125rem;line-height:1.22}@media screen and (max-width:768px){.profile__job{justify-self:center}}@media screen and (max-width:480px){.profile__job{font-size:14px;line-height:17px}}
