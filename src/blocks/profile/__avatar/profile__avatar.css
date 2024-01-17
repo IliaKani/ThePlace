@@ -3,8 +3,9 @@
   max-width: 120px;
   grid-column: 1/2;
   border-radius: 50%;
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 200px;
+  max-height: 200px;
+  clip-path: circle();
 }
 
 
