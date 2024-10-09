@@ -1,4 +1,4 @@
-#  _Project Description:_ The Place. An interactive page where you can add photos, delete them and like them.
+# The Place. An interactive page where you can add photos, delete them and like them.
 
 _Stack:_
 
